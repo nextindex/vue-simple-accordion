@@ -2,6 +2,56 @@
 
 > Accordion component in vue
 
+To be as flexible as possible, it contains only Accordion Items. You have to wrap it in a container and add your own styling.
+Title and content will be set over slots, to provide a maximum flexebility for the accordion content.
+
+## Install
+
+`npm i vue-simple-accordion`
+
+## Usage
+
+```javascript
+import AccordionItem from 'vue-simple-accordion'
+
+export default {
+  components: {
+    AccordionItem
+  }
+}
+```
+
+## Templates & Slots
+
+```html
+<accordion-item>
+    <div slot="title">Hello</div>
+    <div slot="icon"> <svg> .... </svg> </div>
+    <div slot="content">
+      <p>I am a hidden content</p>
+    </div>
+</accordion-item>
+```
+
+## Styling
+
+Only a very basic styling is included. So you can style it yourself to match your style.
+Some preset stylings will be included later.
+
+### BEM Styles
+
+```scss
+.Accordion__item {}
+.Accordion__heading {}
+  .Accordion__title {}
+  .Accordion__icon {
+    &.is-open {}
+  }
+.Accordion__content {
+  &.is-open {}
+}
+```
+
 ## Build Setup
 
 ``` bash
