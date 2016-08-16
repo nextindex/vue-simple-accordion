@@ -7,7 +7,7 @@ Title and content will be set over slots, to provide a maximum flexebility for t
 
 ## Install
 
-`npm i vue-simple-accordion`
+`npm i @nextindex/vue-simple-accordion`
 
 ## Usage
 
