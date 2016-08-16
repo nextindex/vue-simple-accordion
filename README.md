@@ -1,5 +1,8 @@
 # vue-simple-accordion
 
+[![npm version](https://badge.fury.io/js/%40nextindex%2Fvue-simple-accordion.svg)](https://badge.fury.io/js/%40nextindex%2Fvue-simple-accordion) [![GitHub version](https://badge.fury.io/gh/nextindex%2Fvue-simple-accordion.svg)](https://badge.fury.io/gh/nextindex%2Fvue-simple-accordion) [![Build Status](https://travis-ci.org/nextindex/vue-simple-accordion.svg?branch=master)](https://travis-ci.org/nextindex/vue-simple-accordion) [![codecov](https://codecov.io/gh/nextindex/vue-simple-accordion/branch/master/graph/badge.svg)](https://codecov.io/gh/nextindex/vue-simple-accordion)
+
+
 > Accordion component in vue
 
 To be as flexible as possible, it contains only Accordion Items. You have to wrap it in a container and add your own styling.
