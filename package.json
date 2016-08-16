@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Accordion component in vue",
   "author": "Jakub Juszczak <jakub@nextindex.de>",
-  "private": true,
+  "keywords": [
+    "accordion",
+    "Vue",
+    "ui"
+  ],
+  "main": "dist/vue-simple-accordion.js",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
