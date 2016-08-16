@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Accordion component in vue",
   "author": "Jakub Juszczak <jakub@nextindex.de>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:nextindex/vue-simple-accordion.git"
+  },
   "keywords": [
     "accordion",
     "Vue",
