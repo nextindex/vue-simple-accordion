@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="Accordion">
-      <accordion-item>
+      <accordion-item style="Accordion__item--small">
           <div slot="title">Hello</div>
           <div slot="icon">v</div>
           <div slot="content">
