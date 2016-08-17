@@ -1,5 +1,5 @@
 <template>
-  <div class="Accordion__item {{ style }}">
+  <div class="Accordion__item" :class="style">
     <div class="Accordion__heading" @click="isOpen = !isOpen">
       <div class="Accordion__title">
         <slot name="title"></slot>
