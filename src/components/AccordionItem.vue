@@ -1,5 +1,5 @@
 <template>
-  <div class="Accordion__item">
+  <div class="Accordion__item {{style}}">
     <div class="Accordion__heading" @click="isOpen = !isOpen">
       <div class="Accordion__title">
         <slot name="title"></slot>
@@ -16,6 +16,12 @@
 
 <script>
   export default {
+    props: {
+      style: {
+        default: null,
+        required: false
+      }
+    },
     data () {
       return {
         isOpen: false
