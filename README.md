@@ -27,7 +27,7 @@ export default {
 ## Templates & Slots
 
 ```html
-<accordion-item>
+<accordion-item style="Accordion__item--small">
     <div slot="title">Hello</div>
     <div slot="icon"> <svg> .... </svg> </div>
     <div slot="content">
@@ -36,10 +36,13 @@ export default {
 </accordion-item>
 ```
 
+In addition you can use the `style` prop to pass additional classes.
+
 ## Styling
 
 Only a very basic styling is included. So you can style it yourself to match your style.
 Some preset stylings will be included later.
+
 
 ### BEM Styles
 
