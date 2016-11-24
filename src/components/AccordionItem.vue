@@ -1,5 +1,5 @@
 <template>
-  <div class="Accordion__item" :class="style">
+  <div class="Accordion__item" :class="variant">
     <div class="Accordion__heading" @click="isOpen = !isOpen">
       <div class="Accordion__title">
         <slot name="title"></slot>
@@ -17,7 +17,7 @@
 <script>
   export default {
     props: {
-      style: {
+      variant: {
         default: '',
         type: String,
         required: false
