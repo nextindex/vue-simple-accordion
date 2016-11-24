@@ -1,6 +1,6 @@
 {
   "name": "@nextindex/vue-simple-accordion",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Accordion component in vue",
   "author": "Jakub Juszczak <jakub@nextindex.de>",
   "repository": {
